@@ -227,4 +227,6 @@ def predicateData(label_to_index):
     submission_df.to_csv('Sample_submission.csv', index=False)
 ```
 
-6. 将预测结果保存到 `Sample_submission.csv` 文件中。
+6. 将预测结果保存到 `Sample_submission.csv` 文件中，然后提交至kaggle平台上后显示准确率86.83%。
+<img width="640" alt="image" src="https://github.com/198lxl/4-aniaml-classification/assets/169584076/cd7ed389-1859-4246-aa17-0f3d0054291c">
+
