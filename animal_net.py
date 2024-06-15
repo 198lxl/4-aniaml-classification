@@ -80,7 +80,7 @@ def trainModel(train_data):
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
     # 训练模型
-    for epoch in range(10):  # 例如，训练10个epoch
+    for epoch in range(10):  # 训练10个epoch
         for inputs, labels in train_loader:
             # 前向传播
             outputs = model(inputs)
